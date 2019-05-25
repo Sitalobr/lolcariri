@@ -1,0 +1,48 @@
+body{
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    background: url('../images/riven-x-shyva-0-9.jpg') no-repeat center center fixed;
+    background-size: cover; /*Css padrão*/
+    -webkit-background-size: cover; /*Css safari e chrome*/
+    -moz-background-size: cover; /*Css firefox*/
+    -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+    -o-background-size: cover; /*Css Opera*/
+}
+
+@media screen and (min-width: 992px){
+    .mainDiv {
+        width: 60%;
+        margin: auto!important;
+        top: 15%;
+    }
+    
+    .ui.form .field>label, #welcome-message{
+        color: #f9f9f9;
+        text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px){
+    .mainDiv {
+        margin: auto;
+        top: 15%;
+    }
+    
+    .ui.form .field>label, #welcome-message{
+        color: #f9f9f9;
+        text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .mainDiv {
+        margin: auto;
+        top: 15%;
+    }
+    
+    .ui.form .field>label, #welcome-message{
+        color: #f9f9f9;
+        font-weight: bold;
+        text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    }
+}
